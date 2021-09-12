@@ -1,68 +1,145 @@
 <!doctype html>
-<html>
+<html lang="en">
+
 <head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Home</title>
-<link rel="icon" type="image/png" href="./img/logo_disc.png" />
-<link href="css/bootstrap-4.0.0.css" rel="stylesheet" type="text/css">
-<link href="css/style.css" rel= "stylesheet" type="text/css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Tommy Wu, Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Hugo 0.88.1">
+  <title>UMAnime</title>
+
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/cover/">
+
+
+
+  <!-- Bootstrap core CSS -->
+  <link href="./css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  </style>
+
+
+  <!-- Custom styles for this template -->
+  <link href="./css/cover.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="d-flex text-center text-white bg-dark">
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-	<div class="navlogo">
-              <img src="./img/logo_disc.png" class="img-nav" alt="Discord Logo">
-		 <h1 class="navbar-brand">UMAnime<small>Welcome to our community</small></h1>
-	</div>
-    <ul class="nav nav-tabs navbar-light bg-light">
-      <li class="nav-item"> <a class="nav-link active" href="#">Home</a></li>
-      <li class="nav-item"> <a class="nav-link" href="aboutUs.html">About Us</a> </li>
-      <li class="nav-item"> <a class="nav-link" href="partners.html">Partners</a> </li>
-	  <li class="nav-item"> <a class="nav-link" href="signUp.html">Sign Up</a> </li>
-				<!-- staff.html replace placeholder   -->
-	  <li class="nav-item"> <a class="nav-link" href="staff.html">Staff</a> </li>
-	  <li class="nav-item"> <a class="nav-link" href="calendar.html">Calendar</a> </li>
-    </ul>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent1">
-      <ul class="navbar-nav">
+  <div class="cover-container d-flex w-100 p-3 mx-auto flex-column">
+    <header class="mb-auto">
+      <div>
+        <h3 class="float-md-start mb-0">UMAnime</h3>
+        <nav class="nav nav-masthead justify-content-center float-md-end">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link" href="events.html">Events</a>
+          <a class="nav-link" href="membership.html">Membership</a>
+        </nav>
+      </div>
+    </header>
 
-        <li class="nav-item"> </li>
-		  <li class="nav-item"> </li>
-		  <li class="nav-item"> </li>
-		  <li class="nav-item"> </li>
-		  <li class="nav-item"> </li>
-      </ul>
-    </div>
-    <ul class="nav nav-tabs">
-      <li class="nav-item"> </li>
-      <li class="nav-item"> </li>
-      <li class="nav-item"> </li>
-      <li class="nav-item"> </li>
-    </ul>
-</nav>
-<section id = "content">
-  <div id = "head">
-	<h1 class="text-center header">Welcome To UMAnime</h1>
-	</div>
-	<p class="medium-text text-center">
-	UMAnime is the premier Anime Club in Manitoba!<br> Our goal is to create an active and welcoming and inclusive community for those that enjoy anime!
-</p>
-</section>
-<img src="./img/bg-01.png" width="auto" height = "475" alt="UMAnime Mascot" class="center">
-	 <footer>
-			<div class="links center">
-              <a target = "_blank" href ="https://discord.gg/G52Wn6a"><img src="img/UMAnime_discord.png" class="img-link rounded-circle img-fluid" alt="Discord Logo"></a>
-              <a target = "_blank" href = "https://www.facebook.com/groups/umanime/"><img src="img/UMAnime_fb.png" class="img-link img-fluid rounded-circle" alt="Facebook Logo"></a>
-               <a target = "_blank" href = "https://www.instagram.com/UMAnimeClub/"><img src="img/UMAnime_Instagram.png" class="img-link img-fluid rounded-circle" alt = "Instagram Logo"></a>
-               <a target = "_blank" href = "https://twitter.com/UmanimeC/"><img src="img/UMAnime_twitter.png" class="img-link rounded-circle img-fluid" alt="Twitter Logo"></a>
-				</div>
-</footer >
-<script src="js/jquery-3.2.1.min.js"></script>
-<script src="js/popper.min.js"></script>
-<script src="js/bootstrap-4.0.0.js"></script>
+
+    <main class="px-3 padding-top">
+      <h1>Welcome To UMAnime</h1>
+
+      <p class="lead">
+        UMAnime is the premier Anime Club in Manitoba! <br>
+        Our goal is to create an active and welcoming and inclusive community for those that enjoy anime!
+      </p>
+
+      <p class="lead">
+        <a href="#about-our-club" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Learn More</a>
+      </p>
+    </main>
+
+    <div class="padding-bottom"></div>
+
+    <main class="px-3" id="about-our-club">
+      <h1>About Our Club</h1>
+
+      <p class="lead">
+        UMAnime exists as a social platform to bring together people who have any level of interest in anime and other connected aspects of similar culture!
+        Our student-run club is a welcoming place for all and we strive to provide a service that enhances our members’ lives through running multiple initiatives. <br> 
+        These initiatives stem from hosting social gatherings, screening events, and providing our members a socialization space.<br>
+      </p>
+
+
+      <p class="lead">
+        <a href="history.html" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Learn more</a>
+      </p>
+    </main>
+
+    <div class="padding-inbetween"></div>
+
+    <main class="px-3">
+      <h1>Social</h1>
+
+      <p class="lead">You can find us on following platforms<br></p>
+      <p>
+        <iframe src="https://discord.com/widget?id=372831696208396308&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+        <a class="twitter-timeline" data-width="350" data-height="500" data-dnt="true" data-theme="dark" href="https://twitter.com/UmanimeC?ref_src=twsrc%5Etfw">Tweets by UmanimeC</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <br>
+        <a href="https://www.instagram.com/UMAnimeClub/"><img width="350" height="500" src="./assets/placeholder-ig-fb.png"></a>
+        <a href="https://www.facebook.com/UofMAnimeClub"><img width="350" height="500" src="./assets/placeholder-ig-fb.png"></a>
+      </p>
+
+    </main>
+
+
+    <div class="padding-inbetween"></div>
+
+    <main class="px-3">
+      <h1>Membership</h1>
+
+      <p class="lead">
+        We’re a club that has been around since 1996 with memberships tiers that are free and $5 for extra benifits. <br>
+        These memberships are valid until October 31st of the following school year.<br>
+        Hope to see you soon!
+        <br>
+      </p>
+
+      <p class="lead">
+        <a href="membership.html" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Learn more</a>
+        <a href="join-membership.html" class="btn btn-lg btn-primary fw-bold ">Join Us</a>
+      </p>
+
+    </main>
+
+
+
+<!--  border-white  -->
+
+
+
+
+
+
+
+    <!-- partners -->
+
+    <div class="padding-bottom"></div>
+
+    <footer class="mt-auto text-white-50">
+      <!-- <p>Cover template for <a href="https://getbootstrap.com/" class="text-white">Bootstrap</a>, by <a
+          href="https://twitter.com/mdo" class="text-white">@mdo</a>.</p> -->
+    </footer>
+  </div>
+
+
+
 </body>
+
 </html>
