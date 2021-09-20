@@ -12,6 +12,20 @@
 }
 
 
+.img-nav
+{
+  width: 20%;
+  padding-right: 5px;
+}
+
+.navlogo{
+  max-width: 400px;
+  display: flex;
+  align-items: center;
+  height: 36px
+}
+
+
 /*
  * Base structure
  */
