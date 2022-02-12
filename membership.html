@@ -35,6 +35,17 @@
 
   <!-- Custom styles for this template -->
   <link href="./css/cover.css" rel="stylesheet">
+
+  <!-- Load Markdown and insert -->
+  <!-- <script src="https://unpkg.com/commonmark@0.30.0/dist/commonmark.js"></script>
+  <script>
+    fetch('https://raw.githubusercontent.com/tommyvct/UMAnime.github.io/overhaul/markdown/membership.md')
+      .then((resp) => resp.text())
+      .then((resp) => {
+        var result = new commonmark.HtmlRenderer().render(new commonmark.Parser().parse(resp)); // result is a String
+        document.getElementById("main").innerHTML = result;
+      });
+  </script> -->
 </head>
 
 
@@ -56,13 +67,13 @@
 
     <div class="padding-inbetween"></div>
 
-    <main>
+    <main id="main">
       <!-- Insert content here -->
       <div id="join-form"><iframe
           src="https://docs.google.com/forms/d/e/1FAIpQLScA6HVwrriUN6kmIsFUt5gxH4eyx426ao54JeslMUo4X5CNQg/viewform?embedded=true"
           width="100%" height="2000" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe></div>
     </main>
-<!--  -->
+    <!--  -->
     <div class="padding-bottom"></div>
 
     <footer class="mt-auto text-white-50">
