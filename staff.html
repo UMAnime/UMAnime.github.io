@@ -43,7 +43,8 @@
   <!-- Load Markdown and insert -->
   <script src="https://unpkg.com/commonmark@0.30.0/dist/commonmark.js"></script>
   <script>
-    fetch('https://raw.githubusercontent.com/tommyvct/UMAnime.github.io/overhaul/markdown/staff.md')
+    // fetch('https://raw.githubusercontent.com/tommyvct/UMAnime.github.io/overhaul/markdown/staff.md')
+    fetch('markdown/staff.md')
       .then((resp) => resp.text())
       .then((resp) => {
         var result = new commonmark.HtmlRenderer().render(new commonmark.Parser().parse(resp)); // result is a String
@@ -55,14 +56,14 @@
 
 
 <body class="d-flex  text-white bg-dark" style="flex-direction: column;">
-  <script src="./js/sakura.js" text="text/javascript"></script>
+  <!-- <script src="./js/sakura.js" text="text/javascript"></script>
   <script>
     const sakura = new Sakura('body');
-  </script>
+  </script> -->
 
   <div class="cover-container d-flex w-100 p-3 mx-auto flex-column">
     <header class="mb-auto">
-      <div>
+      <div class="header-responsive">
         <a href="index.html" class="navlogo navbar-brand float-md-start mb-0" style="color: white;">
           <img class="img-nav d-inline-block align-middle" src="./assets/favicon.png">
           <h3 style="margin-bottom: 0;">UMAnime</h3>
@@ -82,8 +83,21 @@
     <div class="padding-bottom"></div>
 
     <footer class="mt-auto text-white-50">
-      <!-- <p>Cover template for <a href="https://getbootstrap.com/" class="text-white">Bootstrap</a>, by <a
-          href="https://twitter.com/mdo" class="text-white">@mdo</a>.</p> -->
+      <p style="text-align: center;">You can find us on following platforms<br></p>
+      <div class="links footer-div">
+        <div>
+          <a target="_blank" href="https://discord.gg/G52Wn6a"><img src="assets/UMAnime_discord.png" class="footer-img"
+              alt="Discord Logo"></a>
+          <a target="_blank" href="https://www.facebook.com/groups/umanime/"><img src="assets/UMAnime_fb.png"
+              class="footer-img" alt="Facebook Logo"></a>
+        </div>
+        <div>
+          <a target="_blank" href="https://www.instagram.com/UMAnimeClub/"><img src="assets/UMAnime_Instagram.png"
+              class="footer-img" alt="Instagram Logo"></a>
+          <a target="_blank" href="https://twitter.com/UmanimeC/"><img src="assets/UMAnime_twitter.png" class="footer-img"
+              alt="Twitter Logo"></a>
+        </div>
+      </div>
     </footer>
   </div>
 </body>

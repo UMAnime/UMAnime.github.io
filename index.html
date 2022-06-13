@@ -46,22 +46,23 @@
         var result = new commonmark.HtmlRenderer().render(new commonmark.Parser().parse(resp)); // result is a String
         document.getElementById("main").innerHTML = result;
       });
-  </script> -->
+  </script> --> 
 </head>
 
 <body class="d-flex text-center text-white bg-dark">
-  <script src="./js/sakura.js" text="text/javascript"></script>
+  <!-- <script src="./js/sakura.js" text="text/javascript"></script>
   <script>
     const sakura = new Sakura('body');
-  </script>
+  </script> -->
 
   <div class="cover-container d-flex w-100 p-3 mx-auto flex-column">
     <header class="mb-auto">
-      <div>
+      <div class="header-responsive">
         <a href="index.html" class="navlogo navbar-brand float-md-start mb-0" style="color: white;">
           <img class="img-nav d-inline-block align-middle" src="./assets/favicon.png">
           <h3 style="margin-bottom: 0;">UMAnime</h3>
         </a>
+        
         <nav class="nav nav-masthead justify-content-center float-md-end">
           <a class="nav-link active" aria-current="page" href="index.html">Home</a>
           <a class="nav-link" href="events.html">Events</a>
@@ -84,7 +85,10 @@
       </p>
     </main>
 
-    <div class="padding-bottom"></div>
+    <div class="padding-inbetween"></div>
+    <div class="padding-inbetween"></div>
+    <div class="padding-inbetween"></div>
+
 
     <main class="px-3" id="about-our-club">
       <h1>About Our Club</h1>
@@ -100,7 +104,7 @@
 
 
       <p class="lead">
-        <a href="history.html" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Our History</a>
+        <!-- <a href="history.html" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Our History</a> -->
         <a href="staff.html" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Our Staff</a>
       </p>
     </main>
@@ -110,21 +114,21 @@
     <main class="px-3">
       <h1>Social</h1>
 
-      <p class="lead">You can find us on following platforms<br></p>
+      <p class="lead">You can find us on our Discord server<br></p>
       <p>
-        <iframe src="https://discord.com/widget?id=372831696208396308&theme=dark/" width="350" height="500"
+        <iframe src="https://discord.com/widget?id=372831696208396308&theme=dark/" width=70% height="500"
           allowtransparency="true" frameborder="0"
           sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
-        <a class="twitter-timeline" data-width="350" data-height="500" data-dnt="true" data-theme="dark"
-          href="https://twitter.com/UmanimeC?ref_src=twsrc%5Etfw">Tweets by UmanimeC</a>
-        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-        <br>
-        <a href="https://www.instagram.com/UMAnimeClub/"><img width="350" height="500"
-            src="./assets/placeholder-ig-fb.png"></a>
-        <a href="https://www.facebook.com/UofMAnimeClub"><img width="350" height="500"
-            src="./assets/placeholder-ig-fb.png"></a>
       </p>
-
+      <p class="lead">You can also find us on following platforms</p>
+      <p> 
+        <a target="_blank" href="https://www.facebook.com/groups/umanime/"><img src="assets/UMAnime_fb.png"
+          class="footer-img" alt="Facebook Logo"></a>
+        <a target="_blank" href="https://www.instagram.com/UMAnimeClub/"><img src="assets/UMAnime_Instagram.png"
+            class="footer-img" alt="Instagram Logo"></a>
+        <a target="_blank" href="https://twitter.com/UmanimeC/"><img src="assets/UMAnime_twitter.png" class="footer-img"
+            alt="Twitter Logo"></a>
+      </p>
     </main>
 
 
@@ -148,23 +152,12 @@
 
     </main>
 
-
-
     <!--  border-white  -->
-
-
-
-
-
-
-
     <!-- partners -->
 
     <div class="padding-bottom"></div>
 
     <footer class="mt-auto text-white-50">
-      <!-- <p>Cover template for <a href="https://getbootstrap.com/" class="text-white">Bootstrap</a>, by <a
-          href="https://twitter.com/mdo" class="text-white">@mdo</a>.</p> -->
     </footer>
   </div>
 </body>
