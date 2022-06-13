@@ -41,7 +41,7 @@
   <!-- Load Markdown and insert -->
   <script src="https://unpkg.com/commonmark@0.30.0/dist/commonmark.js"></script>
   <script>
-    fetch('https://raw.githubusercontent.com/tommyvct/UMAnime.github.io/overhaul/markdown/history.md')
+    fetch('markdown/history.md')
       .then((resp) => resp.text())
       .then((resp) => {
         var result = new commonmark.HtmlRenderer().render(new commonmark.Parser().parse(resp)); // result is a String
