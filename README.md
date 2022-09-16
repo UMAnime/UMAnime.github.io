@@ -1,2 +1,0 @@
-# UMAnimeWebsite
-The UMAnime website
