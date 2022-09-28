@@ -81,8 +81,8 @@ body {
 
 .padding-top
 {
-  padding-top: 20vh;  /* use when top banner exists */
-  /* padding-top: 40vh; */
+  /* padding-top: 20vh;  use when top banner exists */
+  padding-top: 40vh;
 
 
   /* position: absolute;
