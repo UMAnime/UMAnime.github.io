@@ -24,7 +24,7 @@ The Deadline for the RSVP form will be on **Friday 11pm**.
     - Session 2: 7PM - 9PM  
 
 RSVP forms (required for entry) (remember this is a members only event):
-- [https://forms.gle/7X4Gzwdopd27WrS1A](Session 1) 
-- [https://forms.gle/qQ3DEDQocMyQqdok9](Session 2)  
+- [Session 1](https://forms.gle/7X4Gzwdopd27WrS1A) 
+- [Session 2](https://forms.gle/qQ3DEDQocMyQqdok9)  
 
 Hope to see you guys soon!
