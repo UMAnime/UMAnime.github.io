@@ -9,15 +9,15 @@ Do you want to let loose after midterms? Perhaps you've been looking for an excu
 - Drink, eat and socialize with club members!
 
 ## Location
-VW's Social Club
+VW's Social Club  
 3rd floor of the University Centre
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2574.7642880648573!2d-97.13725958408446!3d49.80929894123435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52ea75fb4cf1633d%3A0x2bb37bfef4c72632!2sVW&#39;s%20Social%20Club!5e0!3m2!1szh-CN!2sca!4v1667329023165!5m2!1szh-CN!2sca" width=100% height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2574.7644711198923!2d-97.1350709!3d49.80929549999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52ea75fb4cf1633d%3A0x2bb37bfef4c72632!2sVW&#39;s%20Social%20Club!5e0!3m2!1sen!2sca!4v1667329737109!5m2!1sen!2sca" width=100% height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 
 
 ## Time
-Saturday, November 12th
+Saturday, November 12th  
 8PM - 1AM  (Doors open right at 8!)
 
 ## Important Info
@@ -25,4 +25,4 @@ Saturday, November 12th
 - The event is open bar, meaning it will be for ages **18+** (**Photo ID required** for entry)
 - Additionally, although members get in free, **tickets will also be available for $10 to non members** (Or convince your friends to buy a club membership, it's only $15 after all)
 
-Make sure to mark the date down on your calendars, and we hope to see you there!
+## Make sure to mark the date down on your calendars, and we hope to see you there!
