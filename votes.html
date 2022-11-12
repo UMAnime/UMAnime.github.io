@@ -7,7 +7,7 @@
   <meta name="description" content="">
   <meta name="author" content="Tommy Wu, Mark Otto, Jacob Thornton, and Bootstrap contributors">
   <link rel="shortcut icon" type="image/x-icon" href="./assets/favicon.png">
-  <title>Events - UMAnime</title>
+  <title>Cosplay Contest Votes - UMAnime</title>
 
   <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/cover/">
 
@@ -39,7 +39,7 @@
   <link href="./css/cover.css" rel="stylesheet">
 
   <!-- Load Markdown and insert -->
-  <script src="https://unpkg.com/commonmark@0.30.0/dist/commonmark.js"></script>
+  <!-- <script src="https://unpkg.com/commonmark@0.30.0/dist/commonmark.js"></script>
   <script>
     fetch('markdown/events.md')
       .then((resp) => resp.text())
@@ -47,7 +47,7 @@
         var result = new commonmark.HtmlRenderer().render(new commonmark.Parser().parse(resp)); // result is a String
         document.getElementById("main").innerHTML = result;
       });
-  </script>
+  </script> -->
 </head>
 
 
@@ -66,7 +66,7 @@
         </a>
         <nav class="nav nav-masthead justify-content-center float-md-end">
           <!-- <a class="nav-link" aria-current="page" href="index.html">Home</a> -->
-          <a class="nav-link active" href="events.html">Events</a>
+          <a class="nav-link" href="events.html">Events</a>
           <!-- <a class="nav-link" href="membership.html"> Membership</a> -->
         </nav>
       </div>
@@ -78,18 +78,21 @@
     </main>
 
     <main>
-      <h1>Are You Cosplaying Today?</h1>
-      <p>Complete the form below to join the contest!</p>
+      <h1>Vote time!</h1>
+      <p>Please choose your favourite cosplayer!</p>
 
       <script type="text/javascript">
         (function(d,s,id,u){
           if (d.getElementById(id)) return;
-          var js, sjs = d.getElementsByTagName(s)[0],
+          var js, sjs = d.getElementsByTagName(s)[1],
               t = Math.floor(new Date().getTime() / 1000000);
           js=d.createElement(s); js.id=id; js.async=1; js.src=u+'?'+t;
           sjs.parentNode.insertBefore(js, sjs);
         }(document, 'script', 'os-widget-jssdk', 'https://www.opinionstage.com/assets/loader.js'));
-        </script><div id="os-widget-1081205" class="os_widget" data-path="/umanime/are-you-cosplaying" data-of="umanime" data-opinionstage-widget="2278939e-07e4-4a6c-bd1c-c248dd6f3df4"></div>
+        </script>
+        
+        
+        <div id="os-widget-1081208" class="os_widget" data-path="/umanime/ready-to-vote-for-the-best-cosplay" data-of="umanime" data-opinionstage-widget="e77cd684-5fed-48fe-b050-37039f87291c"></div>
     </main>
 
     <!-- <main>
