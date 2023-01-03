@@ -27,9 +27,25 @@
       user-select: none;
     }
 
-    @media (min-width: 768px) {
-      .bd-placeholder-img-lg {
-        font-size: 3.5rem;
+    .responsive {
+      flex-direction: row;
+      padding-bottom: 30px;
+      flex: 1;
+    }
+
+    .responsive-img {
+      padding-right: 15px;
+      padding-bottom: 0px;
+    }
+
+    @media (max-width: 750px) {
+      .responsive {
+        flex-direction: column;
+      }
+
+      .responsive-img {
+        padding-right: 0px;
+        padding-bottom: 2px;
       }
     }
   </style>
@@ -41,7 +57,7 @@
 
 
   <!-- Load Markdown and insert -->
-  <script src="https://unpkg.com/commonmark@0.30.0/dist/commonmark.js"></script>
+  <!-- <script src="https://unpkg.com/commonmark@0.30.0/dist/commonmark.js"></script>
   <script>
     // fetch('markdown/staff.md')
     fetch('markdown/staff.md')
@@ -50,7 +66,7 @@
         var result = new commonmark.HtmlRenderer().render(new commonmark.Parser().parse(resp)); // result is a String
         document.getElementById("main").innerHTML = result;
       });
-  </script>
+  </script> -->
 
 </head>
 
@@ -69,9 +85,8 @@
           <h3 style="margin-bottom: 0;">UMAnime</h3>
         </a>
         <nav class="nav nav-masthead justify-content-center float-md-end">
-          <a class="nav-link" aria-current="page" href="index.html">Home</a>
           <a class="nav-link" href="events.html">Events</a>
-          <a class="nav-link" href="membership.html"> Membership</a>
+          <a class="nav-link active" href="staff.html">Staff</a>
         </nav>
       </div>
     </header>
@@ -79,44 +94,97 @@
     <div class="padding-inbetween"></div>
 
     <main id="main">
-      <table>
-        <tr>
-            <th>
-                <img src="assets/staff/Jake.jpg">
-                <h2>Jake</h2>
-                <strong>President</strong>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </th>
-            <th>
-                <img src="assets/staff/Jake.jpg">
-                <h2>Jake</h2>
-                <strong>President</strong>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </th>
-        </tr>
-    </table>
-    <table>
-      <tr>
-          <th>
-              <img src="assets/staff/Jake.jpg">
-              <h2>Jake</h2>
-              <strong>President</strong>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </th>
-          <th>
-              <img src="assets/staff/Jake.jpg">
-              <h2>Jake</h2>
-              <strong>President</strong>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </th>
-      </tr>
-  </table>
+      <div style="display: flex;" class="responsive">
+        <div style="flex: 1;" class="responsive-img"><img src="assets/staff/Jake.jpg"></div>
+        <div style="flex: 1;">
+          <h2>Jake</h2>
+          <strong>President</strong>
+          <p>
+            Favourite Anime: Kaguya-Sama<br>
+            Jake is an accomplished anime protagonist who has lived in Japan and shares a strong passion for connecting
+            like-minded anime and Japanese cultural fans together.
+          </p>
+        </div>
+      </div>
 
+      <div style="display: flex;" class="responsive">
+        <div style="flex: 1;" class="responsive-img"><img src="assets/staff/Anas.jpg"></div>
+        <div style="flex: 1;">
+          <h2>Anas</h2>
+          <strong>Vice President Internal</strong>
+          <p>
+            Favourite Anime: Code Geass/NGE<br>
+            I like skydiving without a parachute
+          </p>
+        </div>
+      </div>
 
-      
-    </main>
+      <div style="display: flex;" class="responsive">
+        <div style="flex: 1;" class="responsive-img"><img src="assets/staff/placeholder.jpg"></div>
+        <div style="flex: 1;">
+          <h2>Faisal</h2>
+          <strong>Event Coordinator </strong>
+          <p>
+            Favourite Anime: Steins Gate<br>
+            I love Art. Love anime/films/shows. I wanna skydive but with a parachute.
+          </p>
+        </div>
+      </div>
+
+      <div style="display: flex;" class="responsive">
+        <div style="flex: 1;" class="responsive-img"><img src="assets/staff/Vincent.jpg"></div>
+        <div style="flex: 1;">
+          <h2>Vincent</h2>
+          <strong>Vice President External</strong>
+          <p>
+            Favourite Anime: Fate Zero<br>
+            I am here.
+          </p>
+        </div>
+      </div>
+
+      <div style="display: flex;" class="responsive">
+        <div style="flex: 1;" class="responsive-img"><img src="assets/staff/Prothoma.jpg"></div>
+        <div style="flex: 1;">
+          <h2>Prothoma</h2>
+          <strong>Digital Artist</strong>
+          <p>
+            Favourite Anime: Devilman Crybaby, Chainsaw Man, Beastars<br>
+            Favourite Game: Nier Automata<br>
+            I draw some of the silly posters.
+          </p>
+        </div>
+      </div>
+
+    <div style="display: flex;" class="responsive">
+      <div style="flex: 1;" class="responsive-img"><img src="assets/staff/placeholder.jpg"></div>
+      <div style="flex: 1;">
+        <h2>Miguel (Mig)</h2>
+        <strong>Event Planner</strong>
+        <p>
+          Favourite Anime: Re:Zero, Haikyuu, Your Lie in April<br>
+          Favourite Game: Minecraft lmao<br>
+          Chronically tired, always down to grab coffee if I have the money
+        </p>
+      </div>
+    </div>
+
+    <div style="display: flex;" class="responsive">
+      <div style="flex: 1;" class="responsive-img"><img src="assets/staff/Calvin.jpg"></div>
+      <div style="flex: 1;">
+        <h2>Calvin</h2>
+        <strong>Community Manager</strong>
+        <p>
+          Favourite Anime: Puella Magi Madoka Magica<br>
+          Favourite Game: Baba Is You<br>
+          I'm studying CS/math. I'm always looking for people to talk to about things I'm interested in, which is mostly drama anime. The long commute is the worst part of university.
+        </p>
+      </div>
+    </div>
 
     <div class="padding-bottom"></div>
+    </main>
+
 
     <footer class="mt-auto text-white-50">
       <p style="text-align: center;">You can find us on following platforms<br></p>
@@ -130,8 +198,8 @@
         <div>
           <a target="_blank" href="https://www.instagram.com/UMAnimeClub/"><img src="assets/UMAnime_Instagram.png"
               class="footer-img" alt="Instagram Logo"></a>
-          <a target="_blank" href="https://twitter.com/UmanimeC/"><img src="assets/UMAnime_twitter.png" class="footer-img"
-              alt="Twitter Logo"></a>
+          <a target="_blank" href="https://twitter.com/UmanimeC/"><img src="assets/UMAnime_twitter.png"
+              class="footer-img" alt="Twitter Logo"></a>
         </div>
       </div>
     </footer>
