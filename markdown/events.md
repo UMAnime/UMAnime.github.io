@@ -1,9 +1,43 @@
-# Build a GUNPLA 
+# Future Events
+> Dates and places are subject to change.
 
-![](/assets/gunpla.png)
+#### Screenings
+4pm - 7pm, January 13, 2023  
+Armes 201
 
-Our next event is ready! It's an introduction to gunpla on Friday, Nov 25, 6-9pm, in the GSA lounge (icebreaker room). This event has a capacity of 32 people (that's how many gunplas we have available for this)
+#### Coffee Hours
+5pm - 8pm, January 20, 2023  
+EITC E2-150
 
-This is a members only event (you will need your membership number on the form).    
+#### Breaking Ice
+4pm - 7pm, January 27, 2023  
+St. Johns College
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeeakCwjytJeT6gfOvZWwe4Iwu4VG6rPchaSzbUk6G9rK6O6w/viewform?embedded=true" width="100%" height="900" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+#### Manga Club
+February 3, 2023  
+GSA Lounge
+
+#### Coffee Hours
+5pm - 8pm, February 13, 2023  
+EITC E2-150
+
+#### Screenings
+4pm - 7pm, February 27, 2023  
+Armes 202
+
+#### Manga Club
+March 2, 2023  
+GSA Lounge
+
+#### Screenings
+4pm - 7pm, March 10, 2023  
+Armes 203
+
+#### Game Knight
+5pm - 8pm, March 17, 2023  
+St. Johns College
+
+#### Coffee Hours
+5pm - 8pm, March 24, 2023  
+EITC E2-150
+
