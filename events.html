@@ -27,9 +27,17 @@
       user-select: none;
     }
 
+    .responsive-img {
+      width: 100%;
+    }
+
     @media (min-width: 768px) {
       .bd-placeholder-img-lg {
         font-size: 3.5rem;
+      }
+
+      .responsive-img {
+        width: 50%;
       }
     }
   </style>
@@ -44,8 +52,14 @@
     fetch('markdown/events.md')
       .then((resp) => resp.text())
       .then((resp) => {
-        var result = new commonmark.HtmlRenderer().render(new commonmark.Parser().parse(resp)); // result is a String
-        document.getElementById("main").innerHTML = result;
+        // var result = new commonmark.HtmlRenderer().render(new commonmark.Parser().parse(resp)); // result is a String
+        // var imgs = result.getElementById("main").getElementsByTagName("img");
+        // console.log(imgs);
+        // 
+
+        var resultHTML =  new DOMParser().parseFromString(new commonmark.HtmlRenderer().render(new commonmark.Parser().parse(resp)), 'text/html');
+        Array.prototype.forEach.call(resultHTML.getElementsByTagName("img"), item => {item.classList.add("responsive-img"); console.log(item)})
+        document.getElementById("main").innerHTML = resultHTML.body.innerHTML;
       });
   </script>
 </head>
