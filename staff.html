@@ -108,7 +108,16 @@
       </div>
 
       <div style="display: flex;" class="responsive">
-        <div style="flex: 1;" class="responsive-img"><img src="assets/staff/Anas.jpg" alt="Anas"></div>
+        <div style="flex: 1;" class="responsive-img">
+          <script>
+            function switch_pic() 
+            {
+              var pic = document.getElementById("anas-pic");
+              pic.src = pic.src.match("Anas") ? "assets/staff/jonas.jpg" : "assets/staff/Anas.jpg"
+            }
+          </script>
+          <img src="assets/staff/Anas.jpg" alt="Anas" id="anas-pic" onclick="return switch_pic()">
+        </div>
         <div style="flex: 1;">
           <h2>Anas</h2>
           <strong>Vice President Internal</strong>
@@ -300,7 +309,7 @@
           <h2>Carl/Stephen</h2>
           <strong>Graphic Artist</strong>
           <p>
-            Favourite Anime: Jujutsu Kaisen<br>
+            Favourite Isekai: Samurai Jack<br>
             Favourite Game: Little Big Planet 2<br>
             I don't like acrylics (。_。)
           </p>
