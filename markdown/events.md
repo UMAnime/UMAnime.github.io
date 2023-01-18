@@ -1,15 +1,30 @@
-# Coffee Hours
+# Current Events
+
+<br>
+
+## Coffee Hours
 ![](./assets/coffeehour.png)
 
-Time: 5pm - 8pm, January 20, 2023  
-Place: EITC E2-150
+We're going to be having our second Coffee Hour next week on **Friday, January 20th from 5pm to 8pm**.
+
+Chill and chat with other people and make new friends!  
+Meet us at **EITC E2-150**.  
+We hope to see you there!
+
+## Breaking Ice
+![](./assets/ice_breaker_2023_.png)
+We are excited to announce our next event taking place next week on **Friday, January 27th from 4pm until 7pm**!  
+Meet us at **St. John’s College** in **room 108** to break some ice, play games and meet new people.  
+We hope to see you there! 
+
+<br>
+<br>
+
+
+---
 
 # Future Events
 > Dates and places are subject to change.
-
-#### Breaking Ice
-Time: 4pm - 7pm, January 27, 2023  
-Place: St. Johns College
 
 #### Manga Club
 Time: February 3, 2023  
