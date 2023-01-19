@@ -12,7 +12,7 @@ Meet us at **EITC E2-150**.
 We hope to see you there!
 
 ## Breaking Ice
-![](./assets/ice_breaker_2023_.png)
+![](./assets/ice_breaker_2023_.png)  
 We are excited to announce our next event taking place next week on **Friday, January 27th from 4pm until 7pm**!  
 Meet us at **St. John’s College** in **room 108** to break some ice, play games and meet new people.  
 We hope to see you there! 
