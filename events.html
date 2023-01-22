@@ -31,6 +31,7 @@
       width: 100%;
     }
 
+    /* if desktop, or viewport width >= 768px */
     @media (min-width: 768px) {
       .bd-placeholder-img-lg {
         font-size: 3.5rem;
@@ -49,16 +50,11 @@
   <!-- Load Markdown and insert -->
   <script src="https://unpkg.com/commonmark@0.30.0/dist/commonmark.js"></script>
   <script>
-    fetch('markdown/events.md')
+    fetch('/events.md')
       .then((resp) => resp.text())
       .then((resp) => {
-        // var result = new commonmark.HtmlRenderer().render(new commonmark.Parser().parse(resp)); // result is a String
-        // var imgs = result.getElementById("main").getElementsByTagName("img");
-        // console.log(imgs);
-        // 
-
         var resultHTML =  new DOMParser().parseFromString(new commonmark.HtmlRenderer().render(new commonmark.Parser().parse(resp)), 'text/html');
-        Array.prototype.forEach.call(resultHTML.getElementsByTagName("img"), item => {item.classList.add("responsive-img"); console.log(item)})
+        Array.prototype.forEach.call(resultHTML.getElementsByTagName("img"), item => {item.classList.add("responsive-img");})
         document.getElementById("main").innerHTML = resultHTML.body.innerHTML;
       });
   </script>

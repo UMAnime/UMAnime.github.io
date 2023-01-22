@@ -2,20 +2,12 @@
 
 <br>
 
-## Coffee Hours
-![](./assets/coffeehour.png)
-
-We're going to be having our second Coffee Hour next week on **Friday, January 20th from 5pm to 8pm**.
-
-Chill and chat with other people and make new friends!  
-Meet us at **EITC E2-150**.  
-We hope to see you there!
-
 ## Breaking Ice
 ![](./assets/ice_breaker_2023_.png)  
 We are excited to announce our next event taking place next week on **Friday, January 27th from 4pm until 7pm**!  
 Meet us at **St. John’s College** in **room 108** to break some ice, play games and meet new people.  
 We hope to see you there! 
+
 
 <br>
 <br>
@@ -30,9 +22,6 @@ We hope to see you there!
 Time: February 3, 2023  
 Place: GSA Lounge
 
-#### Ai-kon School Festival
-Time: February 6, 2023  
-Place: University Centre MPR
 
 #### Coffee Hours
 Time: 5pm - 8pm, February 13, 2023  
