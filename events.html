@@ -41,6 +41,10 @@
         width: 50%;
       }
     }
+
+    .no-responsive-img {
+      width: 100%;
+    }
   </style>
 
 
@@ -54,7 +58,11 @@
       .then((resp) => resp.text())
       .then((resp) => {
         var resultHTML =  new DOMParser().parseFromString(new commonmark.HtmlRenderer().render(new commonmark.Parser().parse(resp)), 'text/html');
-        Array.prototype.forEach.call(resultHTML.getElementsByTagName("img"), item => {item.classList.add("responsive-img");})
+        Array.prototype.forEach.call(resultHTML.getElementsByTagName("img"), item => 
+        {
+          if (!item.classList.contains("no-responsive-img"))
+            item.classList.add("responsive-img");
+        })
         document.getElementById("main").innerHTML = resultHTML.body.innerHTML;
       });
   </script>
@@ -84,7 +92,7 @@
 
     <div class="padding-inbetween"></div>
 
-    <main id="main">
+    <main id="main" style="display: flex; flex-direction: column;">
     </main>
 
     <!-- <main>
