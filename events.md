@@ -2,11 +2,15 @@
 
 <br>
 
-## Breaking Ice
-![](./assets/ice_breaker_2023_.png)  
-We are excited to announce our next event taking place next week on **Friday, January 27th from 4pm until 7pm**!  
-Meet us at **St. John’s College** in **room 108** to break some ice, play games and meet new people.  
-We hope to see you there! 
+## Manga Club
+![](assets/manga.png)
+We're happy to announce our first Manga Club meet-up at UC GSA Lounge on **February 3rd** from **5pm to 7pm** 😄 
+
+Our first titles will be *Marriagetoxin* and *Chainsaw Man*.
+Please read up to Chapter 7 for both manga!
+
+We also recommend using [MANGA Plus](https://mangaplus.shueisha.co.jp/). It's available on both IOS and Android!
+We're excited to see everyone there!
 
 ## Ai-kon School Festival
 
@@ -42,10 +46,6 @@ We can’t wait to see your cosplays!
 
 # Future Events
 > Dates and places are subject to change.
-
-#### Manga Club
-Time: February 3, 2023  
-Place: GSA Lounge
 
 
 #### Coffee Hours
