@@ -3,7 +3,7 @@
 <br>
 
 ## Manga Club
-![](assets/manga.png)
+![](assets/manga.png)  
 We're happy to announce our first Manga Club meet-up at UC GSA Lounge on **February 3rd** from **5pm to 7pm** 😄 
 
 Our first titles will be *Marriagetoxin* and *Chainsaw Man*.
