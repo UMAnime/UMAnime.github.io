@@ -16,10 +16,6 @@
 > Dates and places are subject to change.
 
 
-#### Coffee Hours
-Time: 5pm - 8pm, February 13, 2023  
-Place: EITC E2-150
-
 #### Screenings
 Time: 4pm - 7pm, February 27, 2023  
 Place: Armes 202
