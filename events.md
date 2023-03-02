@@ -1,28 +1,25 @@
-<!-- # Current Events
+# Current Events
 
 <br>
 
 
-
+## Manga Club
+![Manga Club Poster](./assets/manga_poster.png)
+Time: 5:30pm - 7:30pm, March 6, 2023  
+Place: EITC E2-320
 
 
 <br>
 <br>
 
 
---- -->
+---
 
 # Future Events
 > Dates and places are subject to change.
 
 
-#### Screenings
-Time: 4pm - 7pm, February 27, 2023  
-Place: Armes 202
 
-#### Manga Club
-Time: March 2, 2023  
-Place: GSA Lounge
 
 #### Screenings
 Time: 4pm - 7pm, March 10, 2023  
