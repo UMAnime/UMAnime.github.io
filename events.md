@@ -31,7 +31,13 @@ Place: 204 Armes
 # Future Events
 > Dates and places are subject to change.
 
-#### Mange club
+#### Manga club
+
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdl7djOeyM8PFHi5dkPfyiY_Lq3aISvl_9FNwN7d7EeMlTZ0g/viewform?embedded=true"  height="900" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
+
+
 Time: 5pm - 7pm, April 6, 2023  
 Place: 320 EITC-E2  
 
