@@ -1,0 +1,371 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Tommy Wu, Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <link rel="shortcut icon" type="image/x-icon" href="./assets/favicon.png">
+  <title>Staff - UMAnime</title>
+
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/cover/">
+
+
+
+  <!-- Bootstrap core CSS -->
+  <link href="./css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./css/sakura.css">
+
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    .responsive {
+      flex-direction: row;
+      padding-bottom: 30px;
+      flex: 1;
+    }
+
+    .responsive-img {
+      padding-right: 15px;
+      padding-bottom: 0px;
+    }
+
+    @media (max-width: 750px) {
+      .responsive {
+        flex-direction: column;
+      }
+
+      .responsive-img {
+        padding-right: 0px;
+        padding-bottom: 2px;
+      }
+    }
+  </style>
+
+
+  <!-- Custom styles for this template -->
+  <link href="./css/cover.css" rel="stylesheet">
+  <link rel="stylesheet" href="./css/sakura.css">
+
+
+  <!-- Load Markdown and insert -->
+  <!-- <script src="https://unpkg.com/commonmark@0.30.0/dist/commonmark.js"></script>
+  <script>
+    // fetch('markdown/staff.md')
+    fetch('markdown/staff.md')
+      .then((resp) => resp.text())
+      .then((resp) => {
+        var result = new commonmark.HtmlRenderer().render(new commonmark.Parser().parse(resp)); // result is a String
+        document.getElementById("main").innerHTML = result;
+      });
+  </script> -->
+
+</head>
+
+
+<body class="d-flex  text-white bg-dark" style="flex-direction: column;">
+  <!-- <script src="./js/sakura.js" text="text/javascript"></script>
+  <script>
+    const sakura = new Sakura('body');
+  </script> -->
+
+  <div class="cover-container d-flex w-100 p-3 mx-auto flex-column">
+    <header class="mb-auto">
+      <div class="header-responsive">
+        <a href="index.html" class="navlogo navbar-brand float-md-start mb-0" style="color: white;">
+          <img class="img-nav d-inline-block align-middle" src="./assets/favicon.png" alt="UMAnime Logo">
+          <h3 style="margin-bottom: 0;">UMAnime</h3>
+        </a>
+        <nav class="nav nav-masthead justify-content-center float-md-end">
+          <a class="nav-link" href="events.html">Events</a>
+          <a class="nav-link active" href="staff.html">Staff</a>
+        </nav>
+      </div>
+    </header>
+
+    <div class="padding-inbetween"></div>
+
+    <main id="main">
+      <div style="display: flex;" class="responsive">
+        <div style="flex: 1;" class="responsive-img"><img src="assets/staff/Jake.jpg" alt="Jake"></div>
+        <div style="flex: 1;">
+          <h2>Anas</h2>
+          <strong>President</strong>
+          <p>
+            Favourite Anime: Code Geass, NGE, Tensura, Danmachi<br>
+            I probably enjoy doing what ever your hobbies are, so come say hi. 
+            I am definetly a normal person , who also hired this very normal staff
+            -President
+          </p>
+        </div>
+      </div>
+
+      <div style="display: flex;" class="responsive">
+        <div style="flex: 1;" class="responsive-img">
+          <script>
+            function switch_pic() 
+            {
+              var pic = document.getElementById("anas-pic");
+              pic.src = pic.src.match("Anas") ? "assets/staff/Jonas.jpg" : "assets/staff/Anas.jpg"
+            }
+          </script>
+          <img src="assets/staff/Anas.jpg" alt="Anas" id="anas-pic" onclick="return switch_pic()">
+        </div>
+        <div style="flex: 1;">
+          <h2>Anas</h2>
+          <strong>Vice President Internal</strong>
+          <p>
+            Favourite Anime: Code Geass/NGE<br>
+            I like skydiving without a parachute
+          </p>
+        </div>
+      </div>
+
+      <div style="display: flex;" class="responsive">
+        <div style="flex: 1;" class="responsive-img"><img src="assets/staff/Vincent.jpg" alt="Vincent"></div>
+        <div style="flex: 1;">
+          <h2>Vincent</h2>
+          <strong>Vice President External</strong>
+          <p>
+            Favourite Anime: Fate Zero<br>
+            I am here.
+          </p>
+        </div>
+      </div>
+      
+      <div style="display: flex;" class="responsive">
+        <div style="flex: 1;" class="responsive-img"><img src="assets/staff/Ben.jpg" alt="Benjamin"></div>
+        <div style="flex: 1;">
+          <h2>Benjamin</h2>
+          <strong>Secretary</strong>
+          <p>
+            Favourite Anime: One piece, Bleach and Jujustu Kaisen<br>
+            Favourite Manga: Blue lock, hell paradise and Tokyo ghoul<br>
+            your fav average Genshin and League of legends player
+          </p>
+        </div>
+      </div>
+      
+      <div style="display: flex;" class="responsive">
+        <div style="flex: 1;" class="responsive-img"><img src="assets/staff/Nuqman.jpg" alt="Nuqman"></div>
+        <div style="flex: 1;">
+          <h2>Nuqman</h2>
+          <strong>Treasurer</strong>
+          <p>
+            Favourite Anime: Girls Und Panzer, The 08th MS Team<br>
+            Favourite Game: Metal Gear Solid 3<br>
+            I'm like a Yuru Camp character, but on crack.
+          </p>
+        </div>
+      </div>
+
+      <div style="display: flex;" class="responsive">
+        <div style="flex: 1;" class="responsive-img"><img src="assets/staff/Faisal.jpg" alt="Faisal"></div>
+        <div style="flex: 1;">
+          <h2>Faisal</h2>
+          <strong>Event Planner </strong>
+          <p>
+            Favourite Anime: Steins Gate<br>
+            I love Art. Love anime/films/shows. I wanna skydive but with a parachute.
+          </p>
+        </div>
+      </div>
+
+      <div style="display: flex;" class="responsive">
+        <div style="flex: 1;" class="responsive-img"><img src="assets/staff/Connor.jpg" alt="Connor"></div>
+        <div style="flex: 1;">
+          <h2>Connor</h2>
+          <strong>Event Coordinator</strong>
+          <p>
+            Favourite Anime: Chainsaw Man, Overlord, Horimiya<br>
+            Favourite Manga: Fuufu Ijou, Blue Lock, Kaiju No.8<br>
+            You'll always see me with a coffee in my hands. I'm new to anime, and some of my hobbies include chainmail and video games.
+          </p>
+        </div>
+      </div>
+      
+      <div style="display: flex;" class="responsive">
+        <div style="flex: 1;" class="responsive-img"><img src="assets/staff/Jadyn.jpg" alt="Jadyn"></div>
+        <div style="flex: 1;">
+          <h2>Jadyn</h2>
+          <strong>Event planner</strong>
+          <p>
+            Favourite Anime: Hyouka, Bungou Stray Dogs, March Comes in Like a Lion, Hunter X Hunter<br>
+            Perpetually stressed and probably on my way to developing a caffeine addiction.
+          </p>
+        </div>
+      </div>
+
+      <div style="display: flex;" class="responsive">
+        <div style="flex: 1;" class="responsive-img"><img src="assets/staff/Damien.jpg" alt="Damien"></div>
+        <div style="flex: 1;">
+          <h2>Damien</h2>
+          <strong>Event planner</strong>
+          <p>
+            Favourite Anime: Monogatari, Samuai Champloo, KonoSuba<br>
+            Favourite Game: TES V: Skyrim<br>
+            Resident public infrastructure enjoyer
+          </p>
+        </div>
+      </div>
+
+      <div style="display: flex;" class="responsive">
+        <div style="flex: 1;" class="responsive-img"><img src="assets/staff/Supreet.jpg" alt="Supreet"></div>
+        <div style="flex: 1;">
+          <h2>Supreet</h2>
+          <strong>Event Coordinator</strong>
+          <p>
+            Favourite Anime: Clannad, Gintama, 3-Gatsu no Lion<br>
+            Favourite Game: One Piece, The Climber, Berserk<br>
+            Probably studying, sleeping, or eating. One Piece goat.
+          </p>
+        </div>
+      </div>
+      
+      <div style="display: flex;" class="responsive">
+        <div style="flex: 1;" class="responsive-img"><img src="assets/staff/Kaitlyn.jpg" alt="Kaitlyn"></div>
+        <div style="flex: 1;">
+          <h2>Kaitlyn</h2>
+          <strong>Event Planner</strong>
+          <p>
+            Favourite Anime: Ghost Hunt, Fruits Basket, Toradora, Kiss Him Not Me, Spy Family, Beastars, Demon Slayer,
+            Jojo, Sands of Destruction, MHA, Jujutsu Kaisen, Mononoke (Not studio Ghibli film)<br>
+            Favourite Game: Pokemon Violet, Nino Kuni, Kingdom Hearts Series, Animal Crossing, Dark Cloud 2, FF 7, Otome
+            (Code Realize, Cafe Enchante, Code X Malice, Obey Me)<br>
+            Currently a master student and proud puppy mom. I am in charge of smaller events, such as coffee hour and
+            screening. This year I want to start reading manga. Favorite drinks are coffee and boba☕🧋
+          </p>
+        </div>
+      </div>
+
+      <div style="display: flex;" class="responsive">
+        <div style="flex: 1;" class="responsive-img"><img src="assets/staff/Mig.jpg" alt="Miguel"></div>
+        <div style="flex: 1;">
+          <h2>Miguel (Mig)</h2>
+          <strong>Event Planner</strong>
+          <p>
+            Favourite Anime: Re:Zero, Haikyuu, Your Lie in April<br>
+            Favourite Game: Minecraft lmao<br>
+            Chronically tired, always down to grab coffee if I have the money
+          </p>
+        </div>
+      </div>
+
+      <div style="display: flex;" class="responsive">
+        <div style="flex: 1;" class="responsive-img"><a href="https://www.pixiv.net/artworks/99349884" target="_blank" rel="noopener noreferrer"><img src="assets/staff/Tommy.jpg" title="Hatsune Miku by Asahi_kuroi" alt="Hatsune Miku by Asahi_kuroi"></a></div>
+        <div style="flex: 1;">
+          <h2>Tommy</h2>
+          <strong>Web Designer</strong>
+          <p>
+            Favourite Anime: <i>Uzaki-chan</i>, <i>Oreimo</i>, The Pet Girl of <i>Sakurasou</i>, Rascal Does Not Dream
+            of Bunny Girl Senpai<br>
+            Favourite Game: Apex Legends, Battlefield 4, R6S, Genshin Impact, Dohna Dohna, Needy Streamer Overdose, <i>Nekopara</i>, FF7,
+            Hatsune Miku Project Diva<br>
+          <pre><code class="lang-bash">$ curl \
+-<span class="ruby">X POST \
+</span>-<span class="ruby">d <span class="hljs-string">"ChatGPT pls generate some english"</span> \
+</span>https://chat.openai.com/chat
+</code></pre>
+
+          </p>
+        </div>
+      </div>
+      
+      <div style="display: flex;" class="responsive">
+        <div style="flex: 1;" class="responsive-img"><img src="assets/staff/Calvin.jpg" alt="Calvin"></div>
+        <div style="flex: 1;">
+          <h2>Calvin</h2>
+          <strong>Community Manager</strong>
+          <p>
+            Favourite Anime: Puella Magi Madoka Magica<br>
+            Favourite Game: Baba Is You<br>
+            I'm studying CS/math. I'm always looking for people to talk to about things I'm interested in, which is
+            mostly drama anime. The long commute is the worst part of university.
+          </p>
+        </div>
+      </div>
+
+      <div style="display: flex;" class="responsive">
+        <div style="flex: 1;" class="responsive-img"><img src="assets/staff/Lem.jpg" alt="Lemuel"></div>
+        <div style="flex: 1;">
+          <h2>Lemuel (Lem)</h2>
+          <strong>PR Manager</strong>
+          <p>
+            Favourite Anime: The Garden of Sinners, NGE, The Fate Series<br>
+            Favourite Game: <img style="max-height: 1em; max-width: fit-content;"
+              src="https://cdn.discordapp.com/emojis/839357354264231936.webp?size=44&quality=lossless"
+              alt="Among Us">
+            <br><br>
+          <figure>
+            <blockquote style="font-size: medium;" class="blockquote text-center">
+              <p><i>I an in love with</i></p>
+              <p><i>a mentally ill maid</i></p>
+              <p><i>one believes in me</i></p>
+            </blockquote>
+            <figcaption style="font-size: small; color: darkgray;" class="blockquote-footer text-center">
+              <i>Lem</i>
+            </figcaption>
+          </figure>
+          </p>
+        </div>
+      </div>
+
+      <div style="display: flex;" class="responsive">
+        <div style="flex: 1;" class="responsive-img"><img src="assets/staff/Carl.jpg" alt="Carl"></div>
+        <div style="flex: 1;">
+          <h2>Carl/Stephen</h2>
+          <strong>Graphic Artist</strong>
+          <p>
+            Favourite Isekai: Samurai Jack<br>
+            Favourite Game: Little Big Planet 2<br>
+            I don't like acrylics (。_。)
+          </p>
+        </div>
+      </div>
+
+      <div style="display: flex;" class="responsive">
+        <div style="flex: 1;" class="responsive-img"><img src="assets/staff/Prothoma.jpg" alt="Prothoma"></div>
+        <div style="flex: 1;">
+          <h2>Prothoma</h2>
+          <strong>Digital Artist</strong>
+          <p>
+            Favourite Anime: Devilman Crybaby, Chainsaw Man, Beastars<br>
+            Favourite Game: Nier Automata<br>
+            I draw some of the silly posters.
+          </p>
+        </div>
+      </div>
+      <div class="padding-bottom"></div>
+    </main>
+
+
+    <footer class="mt-auto text-white-50">
+      <p style="text-align: center;">You can find us on following platforms<br></p>
+      <div class="links footer-div">
+        <div>
+          <a href="https://discord.gg/G52Wn6a" target="_blank" rel="noopener noreferrer"><img src="assets/UMAnime_discord.png" class="footer-img"
+              alt="Discord Logo"></a>
+          <a href="https://www.facebook.com/groups/umanime/" target="_blank" rel="noopener noreferrer"><img src="assets/UMAnime_fb.png"
+              class="footer-img" alt="Facebook Logo"></a>
+        </div>
+        <div>
+          <a href="https://www.instagram.com/UMAnimeClub/" target="_blank" rel="noopener noreferrer"><img src="assets/UMAnime_Instagram.png"
+              class="footer-img" alt="Instagram Logo"></a>
+          <a href="https://twitter.com/UmanimeC/" target="_blank" rel="noopener noreferrer"><img src="assets/UMAnime_twitter.png" class="footer-img"
+              alt="Twitter Logo"></a>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+
+
+</html>
