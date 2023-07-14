@@ -10,6 +10,7 @@
   <title>UMAnime</title>
 
   <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/cover/">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.1/js/bootstrap.min.js"></script>
 
 
 
@@ -65,6 +66,9 @@
         
         <nav class="nav nav-masthead justify-content-center float-md-end">
           <!-- <a class="nav-link active" aria-current="page" href="index.html">Home</a> -->
+          <button id ="clickable" type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#popupmodalid">
+            AIKON LOCATION
+          </button>
           <a class="nav-link" href="events.html">Events</a>
           <a class="nav-link" href="staff.html">Staff</a>
         </nav>
@@ -97,7 +101,7 @@
     <div class="padding-inbetween"></div>
 
 
-    <main class="px-3" id="about-our-club">
+    <main class="px-3 container" id="about-our-club">
       <h1>About Our Club</h1>
 
       <p class="lead">
@@ -108,6 +112,33 @@
         These initiatives stem from hosting social gatherings, screening events, and providing our members a
         socialization space.<br>
       </p>
+
+      <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#aikon-modal">
+  Waitlist
+</button>
+
+<!-- Modal -->
+<div  class="modal fade" id="aikon-modal" tabindex="-1" aria-labelledby="ummodallabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+    <div style="background-color: black; color: white;" class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title text-center" id="ummodallabel">UManime X AIKON waitlist</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <iframe  class="for" src="https://docs.google.com/forms/d/e/1FAIpQLSdpUXMdpSjKAkzujPxH1kVWfQ6Kp-ZvJKhjuk9Pu3ryysAmUg/viewform?embedded=true"  width="100%" height="1100rem" frameborder="0" marginheight="0" marginwidth="0" style="background-color: black;">Loading…</iframe>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+      
+
 
 
       <!-- <p class="lead">
@@ -127,9 +158,9 @@
         If you would like to attend a screening or join our Discord server, no membership is required.
         <br>
         These memberships are valid until <b>June 30th</b> of the following school year.
-        <br>
+        <!-- <br>
         To sign up for a membership, visit us at our staff room in <b>120 Helen Glass</b> on <b>weekedays between 1-3pm</b>, <br>or you may sign up at any of our in-person events.  
-        <br>
+        <br> -->
         Hope to see you soon!
         <br>
       </p>
@@ -175,6 +206,31 @@
       <p class="lead">Email us at <a href="mailto:umanimeclub@gmail.com" style="color: pink;">umanimeclub@gmail.com</a></p>
 
     </main>
+    
+    <!-- Button trigger modal -->
+
+
+<!-- Modal -->
+<div class="modal fade" id="popupmodalid" tabindex="-1" aria-labelledby="popupmodal" aria-hidden="true">
+  <div class="modal-dialog">
+    <div style="background-color: white; color: black;" class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="popupmodal">UMANIME IS AT AIKON </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h6 class="text-center text-danger"> Come Find us Here⬇</h6>
+      <img src="./assets/Aikon_find.png">
+      </div>
+      <div class="modal-footer">
+        <h8>Join the waitlist for the next session: </h8>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#aikon-modal">
+          Waitlist
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
 
     <!--  border-white  -->
     <!-- partners -->
@@ -185,5 +241,21 @@
     </footer>
   </div>
 </body>
+<script>
+  // window.onload = (event) => {
+  //   var x = document.getElementById("popupmodalid");
+  //   x.className = "modal fade show";
+  //   x.style.display = "block";
+  //   var y = document.getElementsByTagName("body");
+  //   y.className = y.className +"modal-open";
+  //   y['style']= [];
+  //   y.style.overflow = "hidden";
+  //   y.style['padding-right']= "0px";
+  //   y = y + `<div class="modal-backdrop fade show"></div>`;
+  // }
+  document.getElementById("clickable").click()
+
+
+</script>
 
 </html>
