@@ -1,3 +1,5 @@
+<!--
+
 # Upcoming Events
 ![First Event of the Term!!](./assets/ice_breaker_1080x1920.png)  
 Time: 5pm - 8Pm, October 29th, 2023  
@@ -6,7 +8,7 @@ Place: SSA Lounge, Armes Building, Fort garry campus
 <!-- <br> -->
 
 
-<!-- 
+ 
 <br>
 <br>
 
