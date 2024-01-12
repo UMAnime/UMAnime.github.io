@@ -1,11 +1,11 @@
 
-<!-- 
-# Upcoming Events
-![Upcoming Event](./assets/image_2023-10-18_080137331.png)  
-Time: 6pm - 9Pm, November 1st, 2023  
-Place: 216 Russell, Fort garry campus
 
-<br> -->
+# Upcoming Events
+![Upcoming Event](./assets/image_2024-01-12_130850041.png)  
+Time: 5pm - 8Pm, Januarry 12th, 2024  
+Place: GSA Lounge, Fort garry campus
+
+<!--<br> -->
 
 
  <!--
