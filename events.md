@@ -1,4 +1,4 @@
-
+<!--
 
 # Upcoming Events
 ![Upcoming Event](./assets/image_2024-01-12_130850041.png)  
