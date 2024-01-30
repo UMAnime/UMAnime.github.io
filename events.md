@@ -1,10 +1,10 @@
-<!--
+
 
 # Upcoming Events
-![Upcoming Event](./assets/image_2024-01-12_130850041.png)  
-Time: 5pm - 8Pm, Januarry 12th, 2024  
-Place: GSA Lounge, Fort garry campus
-
+![Upcoming Event](./assets/image_2024-01-30_115032066.png)  
+Time: 5:30pm - 8:30Pm, Febuary 2nd, 2024  
+Place: EITC RM 270, Fort garry campus
+<!--
 <!--<br> -->
 
 
