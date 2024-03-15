@@ -1,10 +1,11 @@
 
 
 # Upcoming Events
+<!--
 ![Upcoming Event](./assets/image_2024-02-29_103408692.png)  
 Time: 5:30pm - 8:30Pm, March 15th, 2024  
 Place: EITC-E2 RM 320, Fort garry campus
-<!--
+
 <!--<br> -->
 
 
