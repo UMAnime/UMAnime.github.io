@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Sliding Backgrounds</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            scroll-behavior: smooth;
+            overflow-x: hidden; /* Prevent horizontal scroll */
+        }
+        .section {
+            position: relative;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 2rem;
+            opacity: 0; /* Start transparent */
+            transition: opacity 1s ease-in-out; /* Smooth transition */
+        }
+        .bg1 {
+            background-image: url('https://via.placeholder.com/800x600/ff7f7f/ffffff?text=Background+1');
+            background-size: cover;
+        }
+        .bg2 {
+            background-image: url('https://via.placeholder.com/800x600/7f7fff/ffffff?text=Background+2');
+            background-size: cover;
+        }
+        .navbar {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            border-radius: 0 0 15px 15px; /* Rounded corners at the bottom */
+            background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent */
+            backdrop-filter: blur(5px); /* Optional: adds a blur effect behind the navbar */
+            margin-top: 15px; /* Slightly detached from the top */
+            width: 90%; /* Set the width to 90% of the viewport */
+            margin-left: auto; /* Center the navbar */
+            margin-right: auto; /* Center the navbar */
+        }
+        .content {
+            background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent white */
+            padding: 20px 30px; /* Padding inside the div */
+            border-radius: 15px; /* Rounded corners */
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Shadow effect */
+        }
+        .card {
+            border: none; /* No border for the card */
+        }
+        .section.active .content {
+            transform: translateY(0); /* Reset the translate when active */
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="#section1">Section 1</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#section2">Section 2</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div id="section1" class="section bg1">
+    <div class="content">
+        <div class="row justify-content-center">
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="https://via.placeholder.com/150" class="card-img-top" alt="Card 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Card 1</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="https://via.placeholder.com/150" class="card-img-top" alt="Card 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Card 2</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="https://via.placeholder.com/150" class="card-img-top" alt="Card 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Card 3</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="section2" class="section bg2">
+    <div class="content">
+        Centered Content 2
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script>
+    const sections = document.querySelectorAll('.section');
+
+    // Set initial opacity for the first section
+    sections[0].style.opacity = '1';
+
+    const options = {
+        root: null,
+        rootMargin: '0px',
+        threshold: 0.5 // Adjust this to change when the transition occurs
+    };
+
+    const callback = (entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                // Fade in the current section
+                entry.target.style.opacity = '1';
+                entry.target.classList.add('active');
+            } else {
+                // Fade out the section that is not in view
+                entry.target.style.opacity = '0';
+                entry.target.classList.remove('active');
+            }
+        });
+    };
+
+    const observer = new IntersectionObserver(callback, options);
+    
+    sections.forEach(section => {
+        observer.observe(section);
+    });
+</script>
+</body>
+</html>
